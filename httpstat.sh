@@ -20,7 +20,7 @@ echo "${red}
 
 echo "${yellow}
 ----------------------------------------------"
-echo "|  [+]Scanning starting ..........            |"
+echo "|  [+]Initialising scan ..........            |"
 echo  "---------------------------------------------"
 
 for site in $(cat list.txt);
@@ -29,7 +29,7 @@ do #starts here....
    #using curl to get the request and fetch out the status code
 echo "${green}
 ----------------------------------------------"
-echo "  [+]showing.. result..... please wait....... "
+echo "  [+]Loading the results..... please wait....... "
 echo "----------------------------------------------"
  cat alive.txt
 
